@@ -5,9 +5,9 @@ Welcome to official site of mdcms (Markdown Content Management System). If you a
 <!-- Separator. -->
 <div style="padding-top: 25pt;"></div>
 
-<pre class="install-on-windows" style="display: none;"><code class="shell">> choco install php --version=7.4.28
+<pre class="install-on-windows" style="display: none;"><code class="shell">> choco install php --version=7.4.30
 > choco install composer
-> choco install nodejs --version=16.14.0
+> choco install nodejs --version=16.15.1
 > choco install rsync
 > choco install sed
 </code></pre>
@@ -43,8 +43,8 @@ $ php composer-setup.php --install-dir=$HOME/bin --filename=composer
 
 <p class="install-on-ubuntu" style="display: none;">Install <a href="https://github.com/nvm-sh/nvm"><code>nvm</code></a></p>
 
-<pre class="install-on-ubuntu" style="display: none;"><code class="shell">$ nvm install 16.14.0
-$ nvm use 16.14.0
+<pre class="install-on-ubuntu" style="display: none;"><code class="shell">$ nvm install 16.15.1
+$ nvm use 16.15.1
 </code></pre>
 
 <pre id="run-on-ubuntu" style="display: none;"><code class="shell">$ git clone https://github.com/cwchentw/mdcms.git mysite
